@@ -10,8 +10,7 @@ defineEmits(['confirm', 'cancel'])
     <p class="delete-confirm__message">
       Are you sure you want to delete
       <strong>{{ user.name }}</strong
-      >?
-      This action cannot be undone.
+      >? This action cannot be undone.
     </p>
     <div class="delete-confirm__actions">
       <BaseButton variant="ghost" @click="$emit('cancel')">Cancel</BaseButton>

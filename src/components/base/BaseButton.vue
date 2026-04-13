@@ -32,7 +32,9 @@ defineProps({
   border-radius: var(--border-radius-md);
   font-size: var(--font-size-sm);
   font-weight: 500;
-  transition: background-color var(--transition-fast), opacity var(--transition-fast);
+  transition:
+    background-color var(--transition-fast),
+    opacity var(--transition-fast);
 }
 .base-btn:disabled {
   opacity: 0.5;

@@ -53,7 +53,9 @@ defineEmits(['update:modelValue', 'blur'])
   font-size: var(--font-size-base);
   color: var(--color-text);
   background: var(--color-bg-white);
-  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  transition:
+    border-color var(--transition-fast),
+    box-shadow var(--transition-fast);
   outline: none;
 }
 .base-input__field:focus {

@@ -10,8 +10,7 @@ function validateForm(form) {
 
   if (!form.username || form.username.trim().length < 2)
     errors.username = 'Username is required and must be at least 2 characters.'
-  else if (/\s/.test(form.username))
-    errors.username = 'Username must not contain spaces.'
+  else if (/\s/.test(form.username)) errors.username = 'Username must not contain spaces.'
 
   if (!form.email || !EMAIL_REGEX.test(form.email.trim()))
     errors.email = 'A valid email address is required.'

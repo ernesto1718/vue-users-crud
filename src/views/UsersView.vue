@@ -72,7 +72,9 @@ function closeDeleteModal() {
     <header class="users-view__header">
       <div>
         <h1 class="users-view__title">User Management</h1>
-        <p class="text-muted">{{ userStore.userCount }} user{{ userStore.userCount !== 1 ? 's' : '' }} total</p>
+        <p class="text-muted">
+          {{ userStore.userCount }} user{{ userStore.userCount !== 1 ? 's' : '' }} total
+        </p>
       </div>
       <BaseButton variant="primary" @click="showCreateModal = true">+ Add User</BaseButton>
     </header>
