@@ -68,3 +68,14 @@ select,
 textarea {
   font: inherit;
 }
+
+/* === RESPONSIVE === */
+@media (max-width: 640px) {
+  .users-view__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .table-wrapper {
+    border-radius: 0;
+  }
+}
