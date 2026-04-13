@@ -1,9 +1,7 @@
 <script setup></script>
 
 <template>
-  <div id="app">
-    <p>App shell ready</p>
-  </div>
+  <RouterView />
 </template>
 
 <style scoped></style>
