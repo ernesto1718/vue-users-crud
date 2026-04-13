@@ -1,7 +1,9 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
-  <HelloWorld />
+  <div id="app">
+    <p>App shell ready</p>
+  </div>
 </template>
+
+<style scoped></style>
